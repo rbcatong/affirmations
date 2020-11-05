@@ -1,14 +1,19 @@
+.box{
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #B0C4DE;
+  padding: 20px 20px 20px 20px;
+  border: thick double black;
+  font-family: 'Italiana', serif;
+}
+
 .container {
-    width: 300px;
-    height: 400px;
-    margin: 0 auto;
-    background-color: #B0C4DE;
-    padding: 20px 20px 20px 20px;
-    border: thick double black;
-    position: center;
-    font-family: 'Italiana', serif;
-    box-align: center;
-    display: flex;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 100%;
+  width: 100%;
   }
 
 .textbox{
