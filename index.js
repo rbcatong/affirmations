@@ -1,3 +1,4 @@
 function sendOutAffirmation(){
-    document.write('hello') // changes the whole image 
+    document.getElementsByClassName('linesOfAffirmation').style.visibility = 'block';
+
 }
