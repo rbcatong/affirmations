@@ -21,6 +21,6 @@
   margin: 0 auto;
 }
 
-.linesOfAffirmation{
-  display: hidden;
+#linesOfAffirmation{
+display: none;
 }

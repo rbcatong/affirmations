@@ -1,4 +1,3 @@
 function sendOutAffirmation(){
-    document.getElementsByClassName('linesOfAffirmation').style.visibility = 'block';
-
+    document.getElementById('linesOfAffirmation').style.display = 'block';
 }
