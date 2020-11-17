@@ -3,15 +3,8 @@ function sendOutAffirmation(){
    
     let mixOfAffirmations = ['You are pretty', 'You can do it!','Great job']
 
-    for(let i=0; i < mixOfAffirmations.length; i++){
-        //show each element 
-        console.log(mixOfAffirmations[i])
-        document.getElementById('linesOfAffirmation').innerHTML = mixOfAffirmations[i]
-        document.getElementById('linesOfAffirmation').innerHTML = mixOfAffirmations[i]
-        document.getElementById('linesOfAffirmation').innerHTML = mixOfAffirmations[i]
-
-        // consoles all 3 at the same time ... 
-        //loop AND KEEP Pushing out the lines 
-        
-    }
+    let randomIndex = Math.floor(Math.random() * mixOfAffirmations.length);
+    document.getElementById('linesOfAffirmation').innerHTML = mixOfAffirmations[randomIndex]
+ 
+   
 }   
