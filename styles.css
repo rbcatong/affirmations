@@ -23,6 +23,8 @@
 
 #linesOfAffirmation{
 display: none;
+font-family: 'Montserrat', sans-serif;
+color: blue;
 }
 
 body{
