@@ -1,9 +1,10 @@
-function todaysDate(){
-    var today = new Date();
-    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+document.addEventListener("DOMContentLoaded", function(){
     document.getElementById('date').innerHTML = date;
-    console.log(today,date)
-}
+    var today = new Date();
+    var date = (today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear()
+    document.getElementById('date').innerHTML = date;
+})
+
 
 function sendOutAffirmation(){
     document.getElementById('linesOfAffirmation').style.display = 'block';
